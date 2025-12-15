@@ -1,0 +1,22 @@
+promises all
+utilities in node with promises
+object utilities
+discriminitive union
+types
+what if interface inherit two interface
+enums in postgres
+upsert
+window
+views and materialised views
+performance and complexity
+git
+
+
+
+GIT:
+
+status:
+git status 
+
+rename main branch 
+git branch -m <name>
