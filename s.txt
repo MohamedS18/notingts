@@ -11,8 +11,6 @@ views and materialised views
 performance and complexity
 git
 
-
-
 GIT:
 
 status:
