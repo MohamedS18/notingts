@@ -1,0 +1,71 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+
+  "compilerOptions": {
+    // MY CONFIGURQATIONS
+    "allowUnreachableCode": false,
+    // "allowUnusedLabels"
+    // "alwaysStrict"
+    // "exactOptionalPropertyTypes" :false,
+    // noFallthroughCasesInSwitch
+    // noImplicitAny
+    // noImplicitOverride
+    // noImplicitReturns
+    // noImplicitThis
+    // noPropertyAccessFromIndexSignature
+    // noUnusedLocals
+    // noUncheckedIndexedAccess
+    // noUnusedParameters
+
+    // strict
+    // strictFunctionTypes
+    // strictNullChecks
+    // strictPropertyInitialization
+    // useUnknownInCatchVariables
+
+
+
+    
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "module": "esnext",      // Use ESM module support
+    "moduleResolution": "bundler",  // Node.js ESM module resolution strategy (for Node.js v16+)
+
+    "target": "esnext",        // Compile to the latest ECMAScript version
+    "esModuleInterop": true,   // Allow interop between CommonJS and ESM
+    "types": ["node", "chalk"],
+    // For nodejs:
+    // "lib": ["esnext"],
+    // "types": ["node"],
+    // and npm install -D @types/node
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+
+    // Style Options
+    // "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "noPropertyAccessFromIndexSignature": true,
+
+    // Recommended Options
+    "strict": true,
+    // "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+  },
+  "include": ["src/**/*.ts"],         // Include all .ts files in the src folder
+  "exclude": ["node_modules"] 
+}
